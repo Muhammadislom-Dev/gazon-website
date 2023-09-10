@@ -1,0 +1,37 @@
+.footer {
+  background-color: rgb(15, 119, 15);
+  padding: 30px 0;
+  margin-top: 30px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-link {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-name {
+  color: #fff;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.footer-text {
+  font-size: 14px;
+  width: 350px;
+  color: #fff;
+  line-height: 22px;
+}
