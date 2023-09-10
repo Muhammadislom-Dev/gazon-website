@@ -1,5 +1,6 @@
 import "./App.css";
 import Company from "./components/Company/Company";
+import Gallery from "./components/Gallery/Gallery";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Section from "./components/Section/Section";
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Company />
       <Section />
+      <Gallery />
     </div>
   );
 }
