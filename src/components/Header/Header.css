@@ -1,0 +1,74 @@
+.headerImage {
+  background: url("https://mygazon.uz/images/background/bg1.jpg");
+  /* background-size: cover; */
+  height: 576px;
+  background-attachment: fixed;
+  display: block;
+}
+
+.header {
+  /* background-color: #245207; */
+  background-size: cover;
+  height: 576px;
+  background-position: center;
+}
+
+.header-name {
+  color: #fff;
+  padding-top: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.header-text {
+  color: #fff;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.header-subname {
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  margin: 25px 0;
+}
+
+.header-form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+.form-input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+.header-button {
+  width: 250px;
+  height: 45px;
+  background-color: green;
+  font-size: 18px;
+  border: 2px solid green;
+  line-height: 24px;
+  color: #fff;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  cursor: pointer;
+}

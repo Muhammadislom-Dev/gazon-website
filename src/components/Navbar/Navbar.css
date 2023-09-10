@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #2e1e13;
+  padding: 25px 0;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navbar-link {
+  color: #fff;
+  padding: 5px 18px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  transition: 0.3s all ease-in-out;
+}
+
+.navbar-link:hover {
+  color: green;
+}
