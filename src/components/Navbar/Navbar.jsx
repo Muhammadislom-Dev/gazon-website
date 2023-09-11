@@ -25,7 +25,7 @@ function Navbar() {
           <a href="#" className="navbar-link">
             Отзывы{" "}
           </a>
-          <a href="#" className="navbar-link">
+          <a href="tel:+998973341313" className="navbar-link">
             Контакты{" "}
           </a>
         </div>
