@@ -10,6 +10,7 @@ import Gazon7 from "../../assets/gazon7.jpg";
 import Gazon8 from "../../assets/gazon8.jpg";
 import Gazon9 from "../../assets/gazon9.jpg";
 import Gazon10 from "../../assets/gazon10.jpg";
+import { Link } from "react-router-dom";
 
 function Gallery() {
   return (
@@ -27,6 +28,9 @@ function Gallery() {
         <img src={Gazon9} alt="" className="gallery-img" />
         <img src={Gazon10} alt="" className="gallery-img" />
       </div>
+      <Link to="/gazon" className="gallery-link">
+        Увидеть все
+      </Link>
     </div>
   );
 }

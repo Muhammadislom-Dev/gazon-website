@@ -78,20 +78,24 @@
     width: 90% !important;
     margin-top: 10px;
   }
-  .blog-box{
+  .blog-box {
     display: none !important;
   }
-  .blog-items{
+  .blog-items {
     display: block !important;
   }
-  .swiper{
+  .swiper {
     width: 100% !important;
   }
-  .blog-text{
+  .blog-text {
     font-size: 14px !important;
     line-height: 22px !important;
   }
-  .blog-items .swiper-slide{
-    margin: 0 10px !important; 
+  .blog-items .swiper-slide {
+    margin: 0 10px !important;
   }
+}
+
+.galleryAll .gallery-list {
+  gap: 25px;
 }
