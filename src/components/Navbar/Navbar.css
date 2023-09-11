@@ -6,9 +6,22 @@
   width: 100%;
 }
 
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-name {
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
 .navbar-link {
   color: #fff;
-  padding: 5px 18px;
+  padding: 5px 12px;
   font-size: 18px;
   line-height: 24px;
   font-weight: 500;

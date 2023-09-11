@@ -5,6 +5,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="container">
+        <h3 className="navbar-name">ПОСАДКА ГАЗОНА И СИСТЕМА ПОДКОРМКИ</h3>
         <div className="navbar-list">
           <a href="#" className="navbar-link">
             Главная{" "}

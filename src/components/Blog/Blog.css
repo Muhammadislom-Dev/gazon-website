@@ -32,3 +32,13 @@
   padding-bottom: 0;
   font-weight: 600;
 }
+
+.blog-items {
+  display: none;
+}
+
+.blog-items .swiper-slide {
+  height: 500px;
+  background: #f2f2f2;
+  margin: 0 15px;
+}
