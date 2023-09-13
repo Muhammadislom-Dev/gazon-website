@@ -20,8 +20,8 @@ function Contact() {
     setInvalidName(false);
   }
   let bot = {
-    TOKEN: "6567609620:AAHWghf_07FQxHs1wI220pI6IM71TgBmEVQ",
-    chatID: "-1001849406680",
+    TOKEN: "6562856807:AAFUiGcP-6xnqUflo_oLMIW0It_JiCVSdKU",
+    chatID: "-1001536017739",
     message: `
         Assalomu alaykum sizga yangi xabar!%0A
         %0AIsmi 👤: ${nameValue}; 
