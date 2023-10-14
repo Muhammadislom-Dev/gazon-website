@@ -13,31 +13,31 @@ import GalleryAll from "./components/GalleryAll/GalleryAll";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Company />
-              <Section />
-              <Gallery />
-              <Blog />
-              <Contact />
-            </>
-          }
-        />
-        <Route
-          path="/gazon"
-          element={
-            <>
-              <GalleryAll />
-            </>
-          }
-        />
-      </Routes>
-      <Footer />
+      // <Navbar />
+      // <Header />
+      // <Routes>
+      //   <Route
+      //     path="/"
+      //     element={
+      //       <>
+      //         <Company />
+      //         <Section />
+      //         <Gallery />
+      //         <Blog />
+      //         <Contact />
+      //       </>
+      //     }
+      //   />
+      //   <Route
+      //     path="/gazon"
+      //     element={
+      //       <>
+      //         <GalleryAll />
+      //       </>
+      //     }
+      //   />
+      // </Routes>
+      // <Footer />
     </div>
   );
 }
